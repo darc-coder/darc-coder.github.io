@@ -4,4 +4,4 @@ boxb.addEventListener('click', () => {
     boxb.classList.toggle("active")
 })
 
-boxb.classList.toggle("active");
+boxb.classList.add("active");
