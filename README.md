@@ -1,3 +1,3 @@
-# Nitin_Portfolio
+# Nitin Portfolio
 
 Nitin Lakra Portfolio
