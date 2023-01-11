@@ -8,7 +8,9 @@
 .column {
     display: flex;
     flex-direction: column;
-    min-width: 330px;
+    min-width: 280px;
+    width: 100%;
+    max-width: 330px;
 }
 
 .title {
@@ -36,6 +38,7 @@
 .timeline-item .item-title {
     font-weight: 600;
     margin-top: 20px;
+    word-break: break-word;
 }
 
 .timeline-item .text,

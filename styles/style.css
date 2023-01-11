@@ -27,11 +27,12 @@ html {
     width: 100vw;
     min-width: 100vw;
     max-width: 100vw;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -136,7 +137,7 @@ body {
     nav.main-nav {
         flex-direction: column;
         position: absolute;
-        top: 40px;
+        top: 50px;
         right: -35px;
         transform: translateX(300px);
         opacity: 0;
@@ -144,6 +145,7 @@ body {
 
     header .bars {
         display: flex;
+        overflow-x: hidden;
     }
 }
 
