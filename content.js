@@ -40,13 +40,13 @@ function loadSkills(skillsCol, skills) {
     Object.keys(skills).forEach(key => {
         let skillDiv = document.createElement('div');
         let progress = document.createElement('div');
-        let progbar = document.createElement('div');
+        let progBar = document.createElement('div');
         let textDiv = document.createElement('div');
         let name = document.createElement('span');
         let perct = document.createElement('span');
 
         skillDiv.className = 'skill';
-        progbar.className = 'progress-bar';
+        progBar.className = 'progress-bar';
         progress.className = 'progress-color';
         textDiv.className = 'skill-text';
         perct.className = 'skill-perct';
@@ -56,8 +56,8 @@ function loadSkills(skillsCol, skills) {
         progress.style.setProperty('--width', `${skills[key].score}%`);
 
         textDiv.append(name, perct);
-        progbar.append(progress);
-        skillDiv.append(textDiv, progbar);
+        progBar.append(progress);
+        skillDiv.append(textDiv, progBar);
         skillsCol.append(skillDiv);
     });
 }
@@ -147,33 +147,8 @@ function enableTabs(TabButtons) {
     });
 }
 
-let TabBtnsExp = document.querySelectorAll('.Experience .tabs ul li');
-let TabBtnsProj = document.querySelectorAll('.Project .tabs ul li');
+let TabBtnExp = document.querySelectorAll('.Experience .tabs ul li');
+let TabBtnProj = document.querySelectorAll('.Project .tabs ul li');
 
-enableTabs(TabBtnsExp);
-enableTabs(TabBtnsProj);
-
-// for smaller devices and resizes,
-function sizeContentSection() {
-    document.querySelectorAll('.tab-view .content').forEach(contentSection => {
-        let maxSize = 0;
-        Array.from(contentSection.children).forEach(child => {
-            child.scrollHeight > maxSize ? maxSize = child.scrollHeight : maxSize = maxSize;
-        });
-        contentSection.style.setProperty('--min-height', maxSize + 'px');
-    });
-}
-
-setTimeout(() => {
-    sizeContentSection();
-}, 1000);
-
-window.onresize = sizeContentSection;
-
-// for sidebar open close
-let hamburger = document.querySelector('header .bars');
-let mainnav = document.querySelector('.main-nav');
-hamburger.onclick = () => {
-    hamburger.classList.toggle('open');
-    mainnav.classList.toggle('open');
-}
+enableTabs(TabBtnExp);
+enableTabs(TabBtnProj);

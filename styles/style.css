@@ -51,7 +51,7 @@ body {
     max-width: 1600px;
     width: 100%;
     margin: 3% 0;
-    padding: 40px 70px 60px;
+    padding: 30px 70px 60px;
     background-color: var(--white);
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, .2);
     border-radius: 40px;
@@ -136,11 +136,31 @@ body {
 @media screen and (max-width: 800px) {
     nav.main-nav {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
         position: absolute;
-        top: 50px;
-        right: -35px;
-        transform: translateX(300px);
+        height: calc(100vh + 50px);
+        width: 100vw;
+        top: -50px;
+        right: -20px;
+        transform: translateY(+100%);
         opacity: 0;
+        background:
+        rgb(34 34 34 / 10%) !important;
+        backdrop-filter: blur(2px);
+    }
+
+    nav.open li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(255 255 255 / 50%);
+        height: 30px;
+        width: 120px;
+        border-radius: 30px;
+        color: black !important;
+        box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
     }
 
     header .bars {
@@ -170,15 +190,17 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
+    width: 6px;
+    height: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-    height: 4px;
-    width: 4px;
-    background: var(--gray-light);
-    cursor: pointer;
+    height: 6px;
+    width: 6px;
+    border-radius: 10px;
+    background-color:  #d5dce3;
+    border: 2px solid transparent;
+    background-clip: content-box;
 }
 
 ::-webkit-scrollbar-track {

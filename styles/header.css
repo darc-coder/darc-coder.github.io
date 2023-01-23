@@ -1,8 +1,17 @@
+.scroll-space {
+    position: sticky;
+    top: 0px;
+    height: 20px;
+    width: 100%;
+    background: #fff;
+    z-index: 2;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     position: sticky;
-    top: 0px;
+    top: 15px;
     padding: 6px;
     /* padding-bottom: 0; */
     border-radius: 30px;
@@ -43,19 +52,22 @@ header {
 
 nav.main-nav {
     display: flex;
-    line-height: 46px;
+    line-height: 40px;
     color: var(--gray-light);
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0;
     overflow-x: hidden;
-    transition: transform 0.4s ease-out, opacity 0.2s ease-out;
+    background: transparent;
+    transition: transform 0.4s ease-out, opacity 0.2s ease-out, background 0.5s ease-out;
+    z-index: 4;
 }
 
 nav.main-nav.open {
     transform: translateX(0%);
     opacity: 1;
+    transition: transform 0.4s ease-out, opacity 1s ease-out, background 0.5s ease-out;
 }
 
 nav li {
@@ -68,7 +80,7 @@ nav li a {
     color: inherit;
 }
 
-nav li:first-child,
+nav li a.active,
 nav li a:hover {
     color: var(--gray-dark);
 }
@@ -82,7 +94,7 @@ nav li a:hover {
     padding: 8px;
     position: absolute;
     right: 10px;
-    z-index: 3;
+    z-index: 5;
     opacity: 0.5;
 }
 
