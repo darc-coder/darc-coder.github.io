@@ -58,6 +58,7 @@ body {
     backface-visibility: hidden;
     left: 50%;
     transform: translate(-50%, 0%);
+    scroll-padding: 30px;
 }
 
 .pages {
@@ -147,11 +148,11 @@ body {
         transform: translateY(+100%);
         opacity: 0;
         background:
-        rgb(34 34 34 / 10%) !important;
+            rgb(34 34 34 / 10%) !important;
         backdrop-filter: blur(2px);
     }
 
-    nav.open li{
+    nav.open li {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -198,7 +199,7 @@ body {
     height: 6px;
     width: 6px;
     border-radius: 10px;
-    background-color:  #d5dce3;
+    background-color: #d5dce3;
     border: 2px solid transparent;
     background-clip: content-box;
 }
