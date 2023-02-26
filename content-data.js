@@ -58,6 +58,14 @@ const skills = {
     7: {
         score: 85,
         name: 'Node Js & Express Js'
+    },
+    8: {
+        score: 75,
+        name: 'C++'
+    },
+    9: {
+        score: 80,
+        name: 'Java'
     }
 }
 
