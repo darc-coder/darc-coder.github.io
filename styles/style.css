@@ -58,7 +58,7 @@ body {
     backface-visibility: hidden;
     left: 50%;
     transform: translate(-50%, 0%);
-    scroll-padding: 30px;
+    scroll-padding: 50px;
 }
 
 .pages {
