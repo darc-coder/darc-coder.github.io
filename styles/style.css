@@ -64,7 +64,7 @@ body {
 .pages {
     display: flex;
     flex-direction: column;
-    scroll-padding: 50px;
+    scroll-padding: 100px;
 }
 
 .page {
