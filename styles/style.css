@@ -32,7 +32,7 @@ html {
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    scroll-padding: 100px;
+    scroll-padding: 80px;
 }
 
 body {
