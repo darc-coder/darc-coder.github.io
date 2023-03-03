@@ -27,12 +27,12 @@ html {
     width: 100vw;
     min-width: 100vw;
     max-width: 100vw;
-    /* overflow-x: hidden; */
 }
 
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    scroll-padding: 100px;
 }
 
 body {
@@ -58,13 +58,11 @@ body {
     backface-visibility: hidden;
     left: 50%;
     transform: translate(-50%, 0%);
-    scroll-padding: 100px;
 }
 
 .pages {
     display: flex;
     flex-direction: column;
-    scroll-padding: 100px;
 }
 
 .page {
