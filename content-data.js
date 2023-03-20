@@ -97,7 +97,7 @@ const Projects = {
     0: {
         year: 'Oct 2022',
         name: 'CRUD Browser',
-        tool: 'Learnt - Angular 13',
+        tool: 'Tools Used - Angular 13',
         texts: {
             text1: 'Created Different Pages for the Crud App using Reusable Components and Services',
             text2: 'Worked with RxJs observables and Subject to handle asynchronous data',
@@ -123,7 +123,7 @@ const Projects = {
         texts: {
             text1: 'Find My QR App goal is to help you find your lost items',
             text2: 'The Main Idea is that You will create a QR for Yourself which will contain information that you provide, (e.g Email Address).',
-            text3: 'This QR can be printed and pasted on your items and the QR can be scanned to find the owner (you) if it is lost.',
+            text3: 'This QR can be printed and pasted on your items and the QR can be scanned to find the owner (you) if the item is lost.',
             text4: 'Live Preview: <a href="https://findmyqr.netlify.app/" target="_blank">findmyqr.netlify.app</a>',
             text5: 'Git URL: <a href="https://github.com/darc-coder/FindMyQRApp" target="_blank">Find My QR App</a>'
         }
@@ -143,7 +143,7 @@ const Projects = {
         tool: 'Tools Used - WebSocket, Express-JS, YouTube IFrame Player API, Css, JS ',
         texts: {
             text1: 'Watch Together is a YouTube Video Watching Platform. ',
-            text2: 'The app can be used watching Videos or Listen to Music with Your Friends, Family and Your Loved Ones.',
+            text2: 'The app can be used for watching Videos or Listening to Music with Your Friends, Family and Your Loved Ones.',
             text3: '',
             text4: 'Git URL: <a href="https://github.com/darc-coder/watch-together" target="_blank">Watch Together</a> '
         }
@@ -153,7 +153,7 @@ const Projects = {
         name: 'Bingo Game',
         tool: 'Tools Used - WebSocket, Express JS, Pug JS, Css, JS ',
         texts: {
-            text1: 'Bingo Game is online multiplayer game',
+            text1: 'Bingo Game is an online multiplayer game',
             text2: 'The Game was created so friends and colleagues can play Bingo remotely.',
             text3: '',
             text4: 'Git URL: <a href="https://github.com/darc-coder/Bingo-Game" target="_blank">Bingo Game</a> '
