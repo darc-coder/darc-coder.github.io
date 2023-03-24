@@ -38,3 +38,23 @@ a {
     text-decoration: none;
     color: var(--primary);
 }
+
+.img-linkedin:not(:hover) {
+    fill: transparent;
+    animation: color-shift 1s ease-out infinite alternate;
+}
+
+.img-linkedin:hover {
+    fill: var(--primary);
+    transition: all 0.25s ease-out;
+}
+
+@keyframes color-shift {
+    from {
+        fill: transparent;
+    }
+
+    to {
+        fill: var(--primary)
+    }
+}
