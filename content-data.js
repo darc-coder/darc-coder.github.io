@@ -145,7 +145,8 @@ const Projects = {
             text1: 'Watch Together is a YouTube Video Watching Platform. ',
             text2: 'The app can be used for watching Videos or Listening to Music with Your Friends, Family and Your Loved Ones.',
             text3: '',
-            text4: 'Git URL: <a href="https://github.com/darc-coder/watch-together" target="_blank">Watch Together</a> '
+            text4: 'Git URL: <a href="https://github.com/darc-coder/watch-together" target="_blank">Watch Together</a> ',
+            text5: 'Demo Preview: <a href="https://drive.google.com/file/d/1euFEp1A8OmujqGOEQNXALgnjeXEvY0Ci/preview" target="_blank">Watch Together Preview</a>' 
         }
     },
     5: {
@@ -156,7 +157,8 @@ const Projects = {
             text1: 'Bingo Game is an online multiplayer game',
             text2: 'The Game was created so friends and colleagues can play Bingo remotely.',
             text3: '',
-            text4: 'Git URL: <a href="https://github.com/darc-coder/Bingo-Game" target="_blank">Bingo Game</a> '
+            text4: 'Git URL: <a href="https://github.com/darc-coder/Bingo-Game" target="_blank">Bingo Game</a> ',
+            text5: 'Demo Preview: <a href="https://drive.google.com/file/d/1ypuDFMKtMZue9cBezPE0yYwZR0QELH4d/preview" target="_blank">Bingo Game Preview</a>' 
         }
     },
 }
