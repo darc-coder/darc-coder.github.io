@@ -5,7 +5,7 @@ const workExperiences = {
         text: 'Software Development Engineer'
     },
     1: {
-        year: 'Oct 2020 - present',
+        year: 'Oct 2020 - Apr 2023',
         title: 'Netcracker Technology Solutions Pvt Ltd',
         text: 'Junior Software Engineer'
     },
