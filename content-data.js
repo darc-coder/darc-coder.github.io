@@ -1,10 +1,15 @@
 const workExperiences = {
     0: {
+        year: 'Apr 2023 - present',
+        title: 'Nakad (Alphastar Technologies Pvt Ltd)',
+        text: 'Software Development Engineer'
+    },
+    1: {
         year: 'Oct 2020 - present',
         title: 'Netcracker Technology Solutions Pvt Ltd',
         text: 'Junior Software Engineer'
     },
-    1: {
+    2: {
         year: 'May 2019 - Junly 2019',
         title: 'DRDO, Chandipur',
         text: 'Central Data Processing Intern,'
