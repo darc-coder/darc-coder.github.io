@@ -76,6 +76,17 @@ const skills = {
 
 const Experiences = {
     0: {
+        year: 'Apr 2023 - present',
+        name: 'Nakad (Alphastar Technologies Pvt Ltd)',
+        abbr: 'Nakad',
+        role: 'Software Development Engineer',
+        texts: {
+            text1: 'Worked with React to develop Enterprise web application for supply chain financing.',
+            text2: 'The platform automates AR and AP reconciliation, providing a one-stop dashboard for balance confirmation,',
+            text3: 'ledger procurement, reconciling the ledgers and dispute resolutions.'
+        }
+    },
+    1: {
         year: 'Oct 2020 - present',
         name: 'Netcracker Technology Solutions Pvt Ltd',
         abbr: 'Netcracker Technology',
@@ -87,7 +98,7 @@ const Experiences = {
             text4: 'Worked using Angular to develop CRUD Browser.'
         }
     },
-    1: {
+    2: {
         year: 'May 2019 - July 2019',
         name: 'Defence Research & Development Organization, Chandipur',
         abbr: 'DRDO, Chandipur',
