@@ -110,6 +110,16 @@ const Experiences = {
 }
 
 const Projects = {
+    -1: {
+        year: 'Apr 2023',
+        name: 'SakshiVani App',
+        tool: 'Tools Used - React Native (Expo + Native Modules)',
+        texts: {
+            text1: 'SakshiVani App, is an Christian Hymn Book',
+            text2: 'The App Provides Hymn in Hindi Language.',
+            text3: 'Live Preview: <a href="https://play.google.com/store/apps/details?id=com.nitzme.SakshiVaniApp" target="_blank">SakshiVani App - Playstore</a>',
+        }
+    },
     0: {
         year: 'Oct 2022',
         name: 'CRUD Browser',
@@ -128,7 +138,7 @@ const Projects = {
         texts: {
             text1: 'Pills by Nitz is a Web Music App developed to listen to songs and music from your favorite artists',
             text2: 'The app was created using React and PWA technologies allowing it to be installed on your device like a regular application.',
-            text3: 'Live Preview: <a href="https://nitz-pills.netlify.app" target="_blank">nitz-pills.netlify.app</a>',
+            text3: 'Live Preview: <a href="https://play.google.com/store/apps/details?id=com.nitzme.SakshiVaniApp" target="_blank">nitz-pills.netlify.app</a>',
             text4: 'Git URL: <a href="https://github.com/darc-coder/pills" target="_blank">Pills by Nitz</a>'
         }
     },
