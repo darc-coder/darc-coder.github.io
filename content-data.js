@@ -110,7 +110,7 @@ const Experiences = {
 }
 
 const Projects = {
-    -1: {
+    "-1": {
         year: 'Apr 2023',
         name: 'SakshiVani App',
         tool: 'Tools Used - React Native (Expo + Native Modules)',
