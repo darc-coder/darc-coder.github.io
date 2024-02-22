@@ -110,7 +110,7 @@ const Experiences = {
 }
 
 const Projects = {
-    "-1": {
+    0: {
         year: 'Apr 2023',
         name: 'SakshiVani App',
         tool: 'Tools Used - React Native (Expo + Native Modules)',
@@ -120,7 +120,7 @@ const Projects = {
             text3: 'Live Preview: <a href="https://play.google.com/store/apps/details?id=com.nitzme.SakshiVaniApp" target="_blank">SakshiVani App - Playstore</a>',
         }
     },
-    0: {
+    1: {
         year: 'Oct 2022',
         name: 'CRUD Browser',
         tool: 'Tools Used - Angular 13',
@@ -130,7 +130,7 @@ const Projects = {
             text3: 'Created lazy loaded Modules to enhance App Load time and App performance'
         }
     },
-    1: {
+    2: {
         year: 'Aug 2022',
         name: 'Pills By Nitz',
         abbr: 'Pills',
@@ -142,7 +142,7 @@ const Projects = {
             text4: 'Git URL: <a href="https://github.com/darc-coder/pills" target="_blank">Pills by Nitz</a>'
         }
     },
-    2: {
+    3: {
         year: 'Apr 2022',
         name: 'Find My QR App',
         tool: 'Tools Used - Css, Js, Progressive Web App',
@@ -154,7 +154,7 @@ const Projects = {
             text5: 'Git URL: <a href="https://github.com/darc-coder/FindMyQRApp" target="_blank">Find My QR App</a>'
         }
     },
-    3: {
+    4: {
         year: 'Feb 2022',
         name: 'GEL Church Site',
         tool: 'Tools Used -  Css, Js',
@@ -163,7 +163,7 @@ const Projects = {
             text2: 'Live Preview: <a href="https://gelcjsg.netlify.app/" target="_blank">gelcjsg.netlify.app</a>',
         }
     },
-    4: {
+    5: {
         year: 'Sep 2021',
         name: 'Watch Together App',
         tool: 'Tools Used - WebSocket, Express-JS, YouTube IFrame Player API, Css, JS ',
@@ -175,7 +175,7 @@ const Projects = {
             text5: 'Demo Preview: <a href="https://drive.google.com/file/d/1euFEp1A8OmujqGOEQNXALgnjeXEvY0Ci/preview" target="_blank">Watch Together Preview</a>' 
         }
     },
-    5: {
+    6: {
         year: 'Aug 2021',
         name: 'Bingo Game',
         tool: 'Tools Used - WebSocket, Express JS, Pug JS, Css, JS ',
