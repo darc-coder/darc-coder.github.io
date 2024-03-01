@@ -37,7 +37,7 @@ const skills = {
         name: 'Python'
     },
     1: {
-        score: 90,
+        score: 99,
         name: 'React'
     },
     2: {
@@ -49,7 +49,7 @@ const skills = {
         name: 'JavaScript'
     },
     4: {
-        score: 85,
+        score: 95,
         name: 'TypeScript'
     },
     5: {
@@ -57,7 +57,7 @@ const skills = {
         name: 'Angular'
     },
     6: {
-        score: 75,
+        score: 85,
         name: 'React Native'
     },
     7: {
@@ -65,7 +65,7 @@ const skills = {
         name: 'Node Js & Express Js'
     },
     8: {
-        score: 75,
+        score: 70,
         name: 'C++'
     },
     9: {
