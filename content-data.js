@@ -33,7 +33,7 @@ const Education = {
 
 const skills = {
     0: {
-        score: 100,
+        score: 80,
         name: 'Python'
     },
     1: {
@@ -53,7 +53,7 @@ const skills = {
         name: 'TypeScript'
     },
     5: {
-        score: 85,
+        score: 80,
         name: 'Angular'
     },
     6: {
