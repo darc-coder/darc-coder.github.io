@@ -1,15 +1,25 @@
 const workExperiences = {
     0: {
-        year: 'Apr 2023 - present',
+        year: 'Jun 2026 - Oct 2026',
+        title: 'Optym',
+        text: 'Senior Software Engineer'
+    },
+    1: {
+        year: 'Apr 2025 - May 2026',
+        title: 'Pakatec',
+        text: 'Software Development Engineer'
+    },
+    2: {
+        year: 'Apr 2023 - Apr 2025',
         title: 'Nakad (Alphastar Technologies Pvt Ltd)',
         text: 'Software Development Engineer'
     },
-    1: {
+    3: {
         year: 'Oct 2020 - Apr 2023',
         title: 'Netcracker Technology Solutions Pvt Ltd',
         text: 'Junior Software Engineer'
     },
-    2: {
+    4: {
         year: 'May 2019 - Junly 2019',
         title: 'DRDO, Chandipur',
         text: 'Central Data Processing Intern,'
@@ -76,17 +86,40 @@ const skills = {
 
 const Experiences = {
     0: {
-        year: 'Apr 2023 - present',
+        year: 'Jun 2026 - Oct 2026',
+        name: 'Optym India',
+        abbr: 'Optym',
+        role: 'Senior Software Engineer',
+        texts: {
+            text1: 'Developed the Route Max mobile application using React Native to optimize pickups and deliveries.',
+            text2: 'Collaborated with cross-functional teams to enhance driver navigation and data entry for pickups and deliveries.',
+            text3: 'Ensured a user-friendly interface that improved the overall experience for drivers.'
+        }
+    },
+    1: {
+        year: 'Apr 2025 - May 2026',
+        name: 'Pakatec',
+        abbr: 'Pakatec',
+        role: 'Software Development Engineer',
+        texts: {
+            text1: 'Developed WePong Mobile Application using React Native and Expo for Table Tennis Game Booking, Developed Entire Flow and suggested changes as required.',
+            text2: 'Developed WePong Back Office Web Application using Next JS 14 and React 19 for Table Tennis Game.',
+            text3: 'Developed AGUI AI Web Application using Next JS 14 and React 19. It’s a Server Driven UI Application that works like modern AI responses powered website to provide information.',
+            text4: 'Developed PortLan AI Crypto Manager Application using Expo and React Native. It’s a AI-first, non-custodial crypto portfolio manager. Unifies exchanges and wallets into a single conversational interface.'
+        }
+    },
+    2: {
+        year: 'Apr 2023 - Apr 2025',
         name: 'Nakad (Alphastar Technologies Pvt Ltd)',
         abbr: 'Nakad',
         role: 'Software Development Engineer',
         texts: {
-            text1: 'Worked with React to develop Enterprise web application for supply chain financing.',
-            text2: 'The platform automates AR and AP reconciliation, providing a one-stop dashboard for balance confirmation,',
-            text3: 'ledger procurement, reconciling the ledgers and dispute resolutions.'
+            text1: 'Led front-end development for an enterprise web application automating account-ing reconciliation and supply chain financing.',
+            text2: 'Analyzed and resolved complex technical issues by troubleshooting software bugs and performance bottlenecks, ensuring smooth product functionality.',
+            text3: 'Collaborated closely with product managers and engineers, providing inputon the development of new features to meet evolving customer needs.'
         }
     },
-    1: {
+    3: {
         year: 'Oct 2020 - present',
         name: 'Netcracker Technology Solutions Pvt Ltd',
         abbr: 'Netcracker Technology',
@@ -98,7 +131,7 @@ const Experiences = {
             text4: 'Worked using Angular to develop CRUD Browser.'
         }
     },
-    2: {
+    4: {
         year: 'May 2019 - July 2019',
         name: 'Defence Research & Development Organization, Chandipur',
         abbr: 'DRDO, Chandipur',
